@@ -18,14 +18,14 @@ def format_news(item):
     link = item.link
 
     return f"""
-📊 美股新闻
+📊 US Stock Market News
 
 📰 {title}
 
 🔗 {link}
 
-🧠 解读：
-该新闻可能影响相关股票，请关注市场波动。
+🧠 Analysis:
+This news may impact relevant stocks; please monitor market volatility。
 """
 
 
